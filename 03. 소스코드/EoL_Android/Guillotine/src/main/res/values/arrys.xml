@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="devi">
+        <item>TV</item>
+        <item>에어컨</item>
+        <item>프로젝트</item>
+        <item>셋톱</item>
+    </string-array>
+    <string-array name="coop">
+        <item>LG</item>
+        <item>SAMSUNG</item>
+        <item>SONY</item>
+        <item>Olleh</item>
+        <item>SKT</item>
+    </string-array>
+</resources>
