@@ -7,7 +7,7 @@
             전류를 제어하는 릴레이와 리모컨 기능을 수행하는 <br>
             IR(적외선) 송수신부를 제어하는 제품 제작
 
-### - 핵심업무
+### 2. Core Task
 ### 1) Arduino
 - 스마트폰과 아두이노를 Wi-Fi를 통하여 연동
 - MySQL을 사용하여 데이터베이스 구축
@@ -20,7 +20,7 @@
 - 실시간으로 데이터베이스에 저장된 온습도, 조도 확인
 - 데이터베이스로 센서를 제어
 
-## 2. Member & Role
+## 3. Member & Role
 - [KCM](https://github.com/Chanmi-Kim) : Android 기능 및 GUI 제작
 - CSP : Android-DB 연결
 - JJY : Arduino 기능 제작
