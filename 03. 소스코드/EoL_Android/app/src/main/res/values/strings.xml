@@ -1,0 +1,10 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Smart MT with WIFI</string>
+    <string name="tv">티비</string>
+    <string name="aircon">에어컨</string>
+    <string name="multi">멀티탭</string>
+    <string name="sensor">센서</string>
+    <string name="settop">셋톱</string>
+    <string name="setting">옵션</string>
+</resources>

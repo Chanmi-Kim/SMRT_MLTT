@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        app:contentInsetStart="0dp"
+        style="@style/Toolbar"
+        android:layout_height="55dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="옵션"
+            android:textSize="@dimen/guillotine_item_text_size" />
+        />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text5"
+        android:text="티비 제조사 선택"
+        android:textSize="35dp"
+        android:layout_weight="0.15" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/device"
+        android:entries="@array/coop"
+        android:layout_weight="0.15">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text6"
+        android:text="에어컨 제조사 선택"
+        android:textSize="35dp"
+        android:layout_weight="0.15" />
+
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cooper"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/com_prompt"
+        android:entries="@array/coop"
+        android:layout_weight="0.15">
+    </Spinner>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text11"
+        android:text="셋톱 제조사 선택"
+        android:textSize="35dp"
+        android:layout_weight="0.15" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settop"
+        android:entries="@array/coop"
+        android:layout_weight="0.15">
+    </Spinner>
+
+
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="41dp"
+        android:id="@+id/btnsave"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/save"
+        android:layout_weight="0.06" />
+
+
+</LinearLayout>
